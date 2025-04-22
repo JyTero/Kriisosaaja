@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5650f5a14e5922843865f6caf286c08e, type: 3}
+  m_Name: ClearScenario
+  m_EditorClassIdentifier: 
+  scenarioName: Clear Scenario
+  scenarioDescription: For when the world needs to be at ease
+  scenarioSituations:
+  - {fileID: 11400000, guid: 1aff7b908ad19eb4a92ebdab172303a7, type: 2}
+  - {fileID: 11400000, guid: 14c0db1bce0b32843b4e69ca3e3833c0, type: 2}
+  - {fileID: 11400000, guid: d23489611316e084da13f9226cc7c35a, type: 2}
+  ScenarioSituationsTotalLenghtDEBUG: 12
+  ScenarioShopItems: []
+  ScenarioEndTime: 500

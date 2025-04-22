@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5650f5a14e5922843865f6caf286c08e, type: 3}
+  m_Name: PowerOutScenarioSO
+  m_EditorClassIdentifier: 
+  scenarioName: Power out!
+  scenarioDescription: Just ignore the scenario name, you live in a city, surely
+    the power can't go out. It's not even stormy out there...
+  scenarioSituations:
+  - {fileID: 11400000, guid: 9a01c465e7a29d340bc0744696701905, type: 2}
+  - {fileID: 11400000, guid: 5a76d31d2e673f342a9ece95a2a502cf, type: 2}
+  - {fileID: 11400000, guid: 3bcb250bbc0a8324785d2b5060c21f7b, type: 2}
+  - {fileID: 11400000, guid: 9ca245b7c15a4b54cbdca061b7eb0705, type: 2}
+  - {fileID: 11400000, guid: 1c866a707e5148344a6fc94da57fd285, type: 2}
+  - {fileID: 11400000, guid: 5e361c7b3eaeab84c90de8b37a51f019, type: 2}
+  - {fileID: 11400000, guid: 1c866a707e5148344a6fc94da57fd285, type: 2}
+  - {fileID: 11400000, guid: c3a5327b93136ac4487b8b187ed314b9, type: 2}
+  - {fileID: 11400000, guid: bbbb3ebbf45d22947907b55d8a252356, type: 2}
+  - {fileID: 11400000, guid: 2a733437b304e0b4b87f3537ac6a729e, type: 2}
+  - {fileID: 11400000, guid: 2422bc37933cfdd4c8e67b94de84094e, type: 2}
+  - {fileID: 11400000, guid: 8a533e665f7492444831d429cf759656, type: 2}
+  - {fileID: 11400000, guid: c946a5d5896e59549acda1dfa225c3e2, type: 2}
+  - {fileID: 11400000, guid: 61989348c19f08143905ad9ae7364611, type: 2}
+  - {fileID: 11400000, guid: 91edd7494b4285c4289cadc4d6eb4833, type: 2}
+  - {fileID: 11400000, guid: 63b99429f09543e479f395098467fd73, type: 2}
+  - {fileID: 11400000, guid: cac18663cf080d442b7c022a7cd3d3ac, type: 2}
+  - {fileID: 11400000, guid: 5f6f3a01f89a3794da7a565034d6af86, type: 2}
+  - {fileID: 11400000, guid: 772d5d0d06078bb4788e3111b102aff0, type: 2}
+  ScenarioSituationsTotalLenghtDEBUG: 1049
+  ScenarioShopItems: []
+  ScenarioEndTime: 1059

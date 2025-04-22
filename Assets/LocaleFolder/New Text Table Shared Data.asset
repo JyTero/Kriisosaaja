@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: New Text Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: New Text Table
+  m_TableCollectionNameGuidString: 4eaf061521d3f2f4185f6baa6a3e135c
+  m_Entries:
+  - m_Id: 2035030036480
+    m_Key: ScenarioUX/Cube/ItemActionsCanvas/Action1/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2322927063040
+    m_Key: ScenarioUX/Cube/ItemActionsCanvas/Action2/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7163011272704
+    m_Key: ShopScene/ShoppingList/ListName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8431100366848
+    m_Key: ShopScene/LocalisationTesting/Canvas/SelectLocale/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11047985352704
+    m_Key: ShopScene/LocalisationTesting/Canvas/SelectLocale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11072815632384
+    m_Key: ShopScene/LocalisationTesting/Canvas/SelectLocale 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11095162884096
+    m_Key: ShopScene/LocalisationTesting/Canvas/SelectLocale 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22756615655424
+    m_Key: ShopScene/GameObject/Canvas/newtext
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37496981164032
+    m_Key: ShopScene/LocalisationTesting/Canvas/SelectLocale 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37905418293248
+    m_Key: ShopScene/Description Box/Canvas/GoHomeButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343796206145536
+    m_Key: ScenarioUX/GeneralCanvas/PauseBackground/ContinueButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343851336077312
+    m_Key: ScenarioUX/GeneralCanvas/PauseBackground/PauseButton (3)/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343909968252928
+    m_Key: ScenarioUX/GeneralCanvas/PauseBackground/PauseButton (2)/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346658587938816
+    m_Key: ScenarioUX/GeneralScenarioCanvas/PauseButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351618008485888
+    m_Key: ScenarioUX/GeneralScenarioCanvas/PauseBackground/VolumeSlider/VolumeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364344231464960
+    m_Key: ScenarioUX/Fridge/ItemActionsCanvas/FridgeDrinkButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371236861251584
+    m_Key: ScenarioUX/Fridge/ItemActionsCanvas/FridgefoodButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9735171620081664
+    m_Key: MainMenu/Canvas/Options/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9740216763813888
+    m_Key: MainMenu/Canvas/Start/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10467369746829312
+    m_Key: ScenarioUX/SceneChangeDoor/ItemActionsCanvas/GoShopButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17375824090820608
+    m_Key: ScenarioUX/Radio/ItemActionsCanvas/WeatherButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17392276785131520
+    m_Key: ScenarioUX/Radio/ItemActionsCanvas/Govnment/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17393582870425600
+    m_Key: ScenarioUX/Retkikeititin/ItemActionsCanvas/MakeFoodButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17398546451722240
+    m_Key: ScenarioUX/VaraVirta/ItemActionsCanvas/RechargeButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45259040893267968
+    m_Key: SnakeTestScene/SnakeGame/Canvas/GameOverText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68068898914791424
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Language/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68073473893822464
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Play_Btn/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68073608799416320
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Quit_Btn/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075296457322496
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Play_Btn/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075315646263296
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Quit_Btn/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075363922702336
+    m_Key: MainMenu/MainMenu/MainMenuPanel/Language/Label 1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1748501004015370264
+  references:
+    version: 2
+    RefIds:
+    - rid: 1748501004015370264
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710840518659

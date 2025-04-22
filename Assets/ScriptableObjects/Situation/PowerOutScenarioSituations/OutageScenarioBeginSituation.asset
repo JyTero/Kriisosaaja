@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ac06c65342b004a81c1b9c8b7dcef7, type: 3}
+  m_Name: OutageScenarioBeginSituation
+  m_EditorClassIdentifier: 
+  situationName: Once upon a time
+  situationDescription: Just another average day in am average apartment, in an average
+    city...
+  situationEffects:
+  - {fileID: 11400000, guid: 0cf03783dcb986142b492fa2e34b1e23, type: 2}
+  - {fileID: 11400000, guid: e16b57ca45c4dd04f90edb8572f8311b, type: 2}
+  - {fileID: 11400000, guid: b99b9e0c59d5e3942a549739c864c878, type: 2}
+  - {fileID: 11400000, guid: 338ac276ee66b3a408688ade25fb4970, type: 2}
+  - {fileID: 11400000, guid: fbb1655c221baee41a3f5a9dc6030573, type: 2}
+  - {fileID: 11400000, guid: 74ca51804f04b264b8b70392ca23dde8, type: 2}
+  - {fileID: 11400000, guid: 16a2f755af8b8d249b667dfa2f65f1f5, type: 2}
+  - {fileID: 11400000, guid: a4fe71e4e0c866743ba9b3df05a2717a, type: 2}
+  - {fileID: 11400000, guid: a21fa42f629499a48a3aad2c545c0ccf, type: 2}
+  - {fileID: 11400000, guid: c5612774b70b1db41877320097eb0ae0, type: 2}
+  - {fileID: 11400000, guid: c976fcdeef22d7445820ad2139a38c2d, type: 2}
+  - {fileID: 11400000, guid: 5d8952376fc1dd9458e9279991628442, type: 2}
+  - {fileID: 11400000, guid: fc3858b2b9a98894889740111f373bff, type: 2}
+  - {fileID: 11400000, guid: f44927f2992e12143a55d7d2a5fb320a, type: 2}
+  SituationDuration: 24

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: New Text Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4eaf061521d3f2f4185f6baa6a3e135c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2035030036480
+    m_Localized: ChangeScene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2322927063040
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7163011272704
+    m_Localized: Shopping list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8431100366848
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11047985352704
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11072815632384
+    m_Localized: Suomi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11095162884096
+    m_Localized: Svenska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22756615655424
+    m_Localized: en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37496981164032
+    m_Localized: OnValueChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37905418293248
+    m_Localized: Go Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343796206145536
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343851336077312
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343909968252928
+    m_Localized: ???
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346658587938816
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351618008485888
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364344231464960
+    m_Localized: Drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371236861251584
+    m_Localized: Cook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9735171620081664
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9740216763813888
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10467369746829312
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17375824090820608
+    m_Localized: Weather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17392276785131520
+    m_Localized: Gvnmt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17393582870425600
+    m_Localized: Cook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17398546451722240
+    m_Localized: Charge Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45259040893267968
+    m_Localized: "Game Over! \nYour score was: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68068898914791424
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68073473893822464
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68073608799416320
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075296457322496
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075315646263296
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68075363922702336
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

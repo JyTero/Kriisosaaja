@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6409324607618703182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354621956780305841}
+  - component: {fileID: 4052942026571344682}
+  - component: {fileID: 7480179706016094882}
+  - component: {fileID: 6221701284227026305}
+  - component: {fileID: 3481773750173014949}
+  - component: {fileID: 2777484197919102972}
+  - component: {fileID: 4008388361698510872}
+  m_Layer: 7
+  m_Name: BathroomDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &354621956780305841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.663, y: 5.9249997, z: 7.4329996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 168017040059830337}
+  - {fileID: 1085112555779309924}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4052942026571344682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.38, y: 2.03, z: 1}
+  m_Center: {x: -0.29, y: 1.2, z: -0.05}
+--- !u!114 &7480179706016094882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f266e871b5f6dd14c8c496905370cdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Bathroom
+  Interactions: []
+  InteractionSpotTransform: {fileID: 1085112555779309924}
+  itemManager: {fileID: 0}
+  TimeBeatEC: {fileID: 11400000, guid: 8688dc7acf8fd144094ae759c9213c2d, type: 2}
+  bathroomInUse: 0
+  dryBathroomInUse: 0
+  dryBathroomUnderPrep: 0
+  dryBathroomBeingRemoved: 0
+  dryBathroomReady: 0
+  usedUnpowerBathroomCapasity: -1
+  useBathroomInteraction: {fileID: 0}
+  useDryBathroomInteraction: {fileID: 0}
+  prepareDryToiletInteraction: {fileID: 0}
+  removeDryToiletInteraction: {fileID: 0}
+--- !u!114 &6221701284227026305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6dd4e01a5f17d409998e9e4b4de219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Use Bathroom
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  bathroomIncreasePerTick: 20
+  unpoweredBathroomNeedCap: 80
+  unpoweredBathroomCapasity: 60
+  unpoweredBathroomFullNotification: The toilet should be flushed but I can't flush
+    it due to the power outtage...
+  unwateredBathroomFullNotification: The toilet should be flushed but I can't flush
+    it with the water outtage...
+  onPlayerGoesAwayeEC: {fileID: 11400000, guid: 4421dcf7977824a458c630c3e83edaa8, type: 2}
+  onUnpoweredBathroomUse: {fileID: 11400000, guid: 247f1b46765c0024b9c7c3267ebdcee2, type: 2}
+--- !u!114 &3481773750173014949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd5785c46b4b094c9930a934f872972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Prepare Dry Toilet
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  dryBathroomPrep: 0
+  dryToiletPrepTime: 2
+  onDrytoiletPrep: {fileID: 11400000, guid: de434b7b7b3384f4684eaf73e93220c3, type: 2}
+  onPlayerGoesAwayeEC: {fileID: 11400000, guid: 4421dcf7977824a458c630c3e83edaa8, type: 2}
+--- !u!114 &2777484197919102972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9947f19987bfe647b38c4bfedad82d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Use Dry Toilet
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  bathroomIncreasePerTick: 15
+  onPlayerGoesAwayeEC: {fileID: 11400000, guid: 4421dcf7977824a458c630c3e83edaa8, type: 2}
+--- !u!114 &4008388361698510872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409324607618703182}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529f8ca531495d349831a9f611a62364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Remove Dry Toilet
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  dryBathroomPrep: 0
+  dryToiletRemoveTime: 3
+  onDrytoiletPrep: {fileID: 11400000, guid: de434b7b7b3384f4684eaf73e93220c3, type: 2}
+  onPlayerGoesAwayeEC: {fileID: 11400000, guid: 4421dcf7977824a458c630c3e83edaa8, type: 2}
+--- !u!1 &8297570648276142427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1085112555779309924}
+  m_Layer: 7
+  m_Name: InteractionSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1085112555779309924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297570648276142427}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.238, y: 0.21000051, z: -0.056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 354621956780305841}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &634003469700092248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 354621956780305841}
+    m_Modifications:
+    - target: {fileID: 131542259251026851, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_Name
+      value: Door 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 131542259251026851, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9993224
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.036806416
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4.219
+      objectReference: {fileID: 0}
+    - target: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002898708820001199, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377423009441338750, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+--- !u!4 &168017040059830337 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 763505618004492569, guid: 40a4444ab0e02774286fff15cf242cdd, type: 3}
+  m_PrefabInstance: {fileID: 634003469700092248}
+  m_PrefabAsset: {fileID: 0}

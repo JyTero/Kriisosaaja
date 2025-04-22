@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ac06c65342b004a81c1b9c8b7dcef7, type: 3}
+  m_Name: ColdSnapColdInApartmentSitEffect
+  m_EditorClassIdentifier: 
+  situationName: 'Cold Snap: Clouds Gather'
+  situationDescription: The coldness of the outside world is seeping into your apartment.
+    While you manage to find some clothing and blankets to keep your warm, the cold
+    apartment is not nice.
+  situationEffects:
+  - {fileID: 11400000, guid: 8e913b87198bc7f439cde3094a7c7584, type: 2}
+  - {fileID: 11400000, guid: 15da6e5a4ebead942b30d8f42f4b017a, type: 2}
+  SituationDuration: 350

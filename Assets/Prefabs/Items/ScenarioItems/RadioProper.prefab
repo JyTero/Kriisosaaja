@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1279964176718983025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5769282352847989134}
+  m_Layer: 7
+  m_Name: InteractionSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5769282352847989134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279964176718983025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7822823323474292444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8903920823512724910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7822823323474292444}
+  - component: {fileID: 7716881209012864731}
+  - component: {fileID: 857197465085139619}
+  - component: {fileID: 6734401414437915788}
+  - component: {fileID: 5923424589327951200}
+  - component: {fileID: 3640287080049364671}
+  m_Layer: 7
+  m_Name: RadioProper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7822823323474292444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.208, y: 6.625, z: 4.626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6944838285903854813}
+  - {fileID: 5769282352847989134}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7716881209012864731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54, y: 0.35, z: 0.48}
+  m_Center: {x: 0, y: 0.19, z: 0}
+--- !u!114 &857197465085139619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 465e39ccf447baf4aac1c63d003766fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Battery powered Radio
+  Interactions: []
+  InteractionSpotTransform: {fileID: 5769282352847989134}
+  itemManager: {fileID: 0}
+  TimeBeatEC: {fileID: 11400000, guid: 8688dc7acf8fd144094ae759c9213c2d, type: 2}
+  onWeatherChangeEC: {fileID: 11400000, guid: 653001a73fa4e40449580e81e3a82c20, type: 2}
+  onAirQualityChangeEC: {fileID: 11400000, guid: 989c281c2cd4edc478d5e6a1c8e87cff, type: 2}
+--- !u!114 &6734401414437915788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6305624ac034a4fbbe884d961d7c4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Tune to the Weather Channel
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  radioTextDuration: 8
+  radioTexts:
+  - 'Hello, you''re listening to Wheather Report, the source for all events weather.
+
+    Now,
+    let''s see that weather: It''s '
+  - '!
+
+    And as for the temperature, the thermometer sits at a solid '
+  - " degrees. \nAnd that's the Weather Report, 'till next time!"
+--- !u!114 &5923424589327951200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7076909a8b898e446b9c524b9186fb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Tune to National Broadcast
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  radioTextDuration: 6
+  radioTexts:
+  - 'Air Quality Alert: The local air quality is forecast to  be of '
+  - ' quality. Take care out there.'
+--- !u!114 &3640287080049364671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903920823512724910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d372fe5dfb06a1949893ea6b774284a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionName: Turn radio off
+  InteractionInitialised: 0
+  playerAtDestinationEC: {fileID: 0}
+--- !u!1001 &5056987293004477479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7822823323474292444}
+    m_Modifications:
+    - target: {fileID: 2057556945315536651, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404835354018413218, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960079647486823289, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243948713040056896, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Name
+      value: Radio
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243948713040056896, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750579629866780526, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+--- !u!4 &6944838285903854813 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2760427872440469754, guid: 14f96af1f88610c4daa5262ab4b6d241, type: 3}
+  m_PrefabInstance: {fileID: 5056987293004477479}
+  m_PrefabAsset: {fileID: 0}

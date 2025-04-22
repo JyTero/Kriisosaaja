@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|d:\\koulu\\kriisiosaaja\\kriisiosaaja\\kriisiproto\\assets\\scripts\\scenario\\scenarioscoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenario\\scenarioscoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\assets\\scripts\\mangers\\scenariomanager\\scenariomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mangers\\scenariomanager\\scenariomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|d:\\koulu\\kriisiosaaja\\kriisiosaaja\\kriisiproto\\assets\\scripts\\interaction\\kitchen_takefood\\takevegetablefromstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\kitchen_takefood\\takevegetablefromstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|d:\\koulu\\kriisiosaaja\\kriisiosaaja\\kriisiproto\\assets\\scripts\\interaction\\kitchen_takefood\\takecannedfoodfromstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\kitchen_takefood\\takecannedfoodfromstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\assets\\scripts\\mangers\\worldmanager\\worldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691799E4-690B-A91B-B159-BF13149056D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mangers\\worldmanager\\worldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1458,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScenarioScoring.cs",
+              "DocumentMoniker": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Scenario\\ScenarioScoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scenario\\ScenarioScoring.cs",
+              "ToolTip": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Scenario\\ScenarioScoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scenario\\ScenarioScoring.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowO8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:35:03.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TakeVegetableFromStorage.cs",
+              "DocumentMoniker": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeVegetableFromStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeVegetableFromStorage.cs",
+              "ToolTip": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeVegetableFromStorage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeVegetableFromStorage.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:15:56.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScenarioManager.cs",
+              "DocumentMoniker": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Mangers\\ScenarioManager\\ScenarioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mangers\\ScenarioManager\\ScenarioManager.cs",
+              "ToolTip": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Mangers\\ScenarioManager\\ScenarioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mangers\\ScenarioManager\\ScenarioManager.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAywHUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:08:33.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorldManager.cs",
+              "DocumentMoniker": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Mangers\\WorldManager\\WorldManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mangers\\WorldManager\\WorldManager.cs",
+              "ToolTip": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Mangers\\WorldManager\\WorldManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mangers\\WorldManager\\WorldManager.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAiwMUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:08:27.528Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1458,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TakeCannedFoodFromStorage.cs",
+              "DocumentMoniker": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeCannedFoodFromStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeCannedFoodFromStorage.cs",
+              "ToolTip": "D:\\Koulu\\Kriisiosaaja\\Kriisiosaaja\\KriisiProto\\Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeCannedFoodFromStorage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\Kitchen_TakeFood\\TakeCannedFoodFromStorage.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:15:26.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

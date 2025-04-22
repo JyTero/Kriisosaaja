@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4081569533882584483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3123041734461993284}
+  - component: {fileID: 3189798672774659328}
+  - component: {fileID: 745217727469376012}
+  - component: {fileID: 2985488213081336678}
+  m_Layer: 0
+  m_Name: OLDManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3123041734461993284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081569533882584483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3189798672774659328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081569533882584483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cc3adf60255b4296c4f1467a8cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenarioSituationIndex: 0
+  SituationTimer: 0
+  scenario: {fileID: 11400000, guid: e1c3141e3cc834b45a8abc974e514675, type: 2}
+  worldVoidEventChannel: {fileID: 11400000, guid: 8b0a6fb84a6edc943859e02c52c6ae81, type: 2}
+  worldTemperatureAdjustEventChannel: {fileID: 11400000, guid: 77b1573ade3011b45a84e2bb54b6dc46, type: 2}
+  worldWeatherAdjustEventChannel: {fileID: 11400000, guid: 7387902e6f0d95e48954fed5adf3c168, type: 2}
+  worldHealthAdjustEventChannel: {fileID: 11400000, guid: 7f74eb545ce909143a90ecd86ac03e69, type: 2}
+  worldInfoQualityAdjustEventChannel: {fileID: 11400000, guid: 7a2595ea4f2a22a47969158ee58ce699, type: 2}
+  worldIsAllowedOutAdjustEventChannel: {fileID: 11400000, guid: 29f2779c1b817bf438301f1a383eafce, type: 2}
+  worldAirQualityAdjustEventChannel: {fileID: 11400000, guid: 662c23d0816d4d94697f3703a1dfe9bc, type: 2}
+  playerMoneyAdjustEventChannel: {fileID: 11400000, guid: 2021a33244f29a643b757db5fdaf9ca4, type: 2}
+  playerMentalWellbeingAdjustEventChannel: {fileID: 11400000, guid: e5701b9df49f5b341802136683ee6233, type: 2}
+  playerHungerAdjustEventChannel: {fileID: 11400000, guid: 8ac4bcd6b7b704741832177eaffaaff3, type: 2}
+  playerHydrationAdjustEventChannel: {fileID: 11400000, guid: 32f9a37a0a47b59489ef08abe16ed224, type: 2}
+  playerBathroomAdjustEventChannel: {fileID: 11400000, guid: 545db2179d2cbc146ab66ea726e35a86, type: 2}
+  playerHealthAdjustEventChannel: {fileID: 11400000, guid: c3da46355325f9a428e82dffb6da0472, type: 2}
+  playerEnergyAdjustEventChannel: {fileID: 11400000, guid: 29ce7cbc5d61a7c4aa270d422d509a56, type: 2}
+  playerHasElectricityAdjustEventChannel: {fileID: 11400000, guid: 0c71e76eb43e0d24bb39cd9f58e4c33c, type: 2}
+  playerHasWaterAdjustEventChannel: {fileID: 11400000, guid: 496b66e9a28a45a4fb47a1f8eaac7984, type: 2}
+  scenarioWonEC: {fileID: 11400000, guid: faadd6381767e8246b5afc2b61203e20, type: 2}
+  scenarioLostStringEC: {fileID: 11400000, guid: 44cc695a8140f5042a31835e14ea1e12, type: 2}
+  timeBeatEC: {fileID: 11400000, guid: 8688dc7acf8fd144094ae759c9213c2d, type: 2}
+  scenarioCanvas: {fileID: 0}
+  gameLostText: {fileID: 0}
+  gameLostTextString: 'You were hospitalised due to '
+  shopButtonGO: {fileID: 0}
+  gameEndScreenCanvas: {fileID: 0}
+  gameEndDescriptionText: {fileID: 0}
+--- !u!114 &745217727469376012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081569533882584483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e090e310af718284ca98738a9ca1b29f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldTemperatureAdjustEventChannel: {fileID: 11400000, guid: 77b1573ade3011b45a84e2bb54b6dc46, type: 2}
+  worldWeatherAdjustEventChannel: {fileID: 11400000, guid: 7387902e6f0d95e48954fed5adf3c168, type: 2}
+  worldHealthAdjustEventChannel: {fileID: 11400000, guid: 7f74eb545ce909143a90ecd86ac03e69, type: 2}
+  worldInfoQualityAdjustEventChannel: {fileID: 11400000, guid: 7a2595ea4f2a22a47969158ee58ce699, type: 2}
+  worldIsAllowedOutAdjustEventChannel: {fileID: 11400000, guid: 29f2779c1b817bf438301f1a383eafce, type: 2}
+  worldAirQualityAdjustEventChannel: {fileID: 11400000, guid: 662c23d0816d4d94697f3703a1dfe9bc, type: 2}
+  worldTemperatureReadEventChannel: {fileID: 11400000, guid: e01816177ec34184d8152164c504ec48, type: 2}
+  worldWeatherReadEventChannel: {fileID: 11400000, guid: e1d0b88557bec804792dccb66b748c42, type: 2}
+  worldHealthReadEventChannel: {fileID: 11400000, guid: 5f7bcd02da19ba9428ef4e1cf59eca59, type: 2}
+  worldInfoQualityReadEventChannel: {fileID: 11400000, guid: 822c8022c1b5b974dad884aabf14b88e, type: 2}
+  worldIsAllowedOutReadEventChannel: {fileID: 11400000, guid: 503b5d38ab77d7e4fa6b3897ee5a3826, type: 2}
+  worldAirQualityReadEventChannel: {fileID: 11400000, guid: 587852494739675489642ff55fc42e6e, type: 2}
+  onWeatherChangeEC: {fileID: 11400000, guid: 653001a73fa4e40449580e81e3a82c20, type: 2}
+  onAirQualityChange: {fileID: 11400000, guid: 989c281c2cd4edc478d5e6a1c8e87cff, type: 2}
+  enableWorldDebugLogs: 0
+--- !u!114 &2985488213081336678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081569533882584483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82306cb1fb032034d88db522a9641e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMoneyAdjustEventChannel: {fileID: 11400000, guid: 2021a33244f29a643b757db5fdaf9ca4, type: 2}
+  playerMentalWellbeingAdjustEventChannel: {fileID: 11400000, guid: e5701b9df49f5b341802136683ee6233, type: 2}
+  playerHungerAdjustEventChannel: {fileID: 11400000, guid: 8ac4bcd6b7b704741832177eaffaaff3, type: 2}
+  playerHydrationAdjustEventChannel: {fileID: 11400000, guid: 32f9a37a0a47b59489ef08abe16ed224, type: 2}
+  playerBathroomAdjustEventChannel: {fileID: 11400000, guid: 545db2179d2cbc146ab66ea726e35a86, type: 2}
+  playerHealthAdjustEventChannel: {fileID: 11400000, guid: c3da46355325f9a428e82dffb6da0472, type: 2}
+  playerEnergyAdjustEventChannel: {fileID: 11400000, guid: 29ce7cbc5d61a7c4aa270d422d509a56, type: 2}
+  playerHasElectrcityAdjustEventChannel: {fileID: 11400000, guid: 0c71e76eb43e0d24bb39cd9f58e4c33c, type: 2}
+  playerHasWaterAdjustEventChannel: {fileID: 11400000, guid: 496b66e9a28a45a4fb47a1f8eaac7984, type: 2}
+  worldTemperatureAdjustEventChannel: {fileID: 11400000, guid: 77b1573ade3011b45a84e2bb54b6dc46, type: 2}
+  worldWeatherAdjustEventChannel: {fileID: 11400000, guid: 7387902e6f0d95e48954fed5adf3c168, type: 2}
+  worldHealthQualityAdjustEventChannel: {fileID: 11400000, guid: 7f74eb545ce909143a90ecd86ac03e69, type: 2}
+  worldInfoQualityAdjustEventChannel: {fileID: 11400000, guid: 7a2595ea4f2a22a47969158ee58ce699, type: 2}
+  worldIsAllowedOutAdjustEventChannel: {fileID: 11400000, guid: 29f2779c1b817bf438301f1a383eafce, type: 2}
+  worldAirQualityAdjustEventChannel: {fileID: 11400000, guid: 662c23d0816d4d94697f3703a1dfe9bc, type: 2}
+  playerMoneyReadEventChannel: {fileID: 11400000, guid: 2ef1fe12ed7bad749af3f45f1d3ed976, type: 2}
+  playerMentalWellbeingReadEventChannel: {fileID: 11400000, guid: 86f7430ec4a27ff40bc76c118ac28c32, type: 2}
+  playerHungerReadEventChannel: {fileID: 11400000, guid: 8fca6d4747a464a49b4e66ac3522cbe2, type: 2}
+  playerHydrationReadEventChannel: {fileID: 11400000, guid: 87d34b9e9d465d4459b5495b01ad31b4, type: 2}
+  playerBathroomReadEventChannel: {fileID: 11400000, guid: f0e66e6071af8f94e84af763780d4c85, type: 2}
+  playerHealthReadEventChannel: {fileID: 11400000, guid: 919f9bc6d8522df4995a8a235ac8a9d5, type: 2}
+  playerEnergyReadEventChannel: {fileID: 11400000, guid: 5e4ce6d3e4955fc4eae53276413c6a2d, type: 2}
+  playerHasElectrcityReadEventChannel: {fileID: 11400000, guid: 71ab6ac700f7c694b96cbdfa45a1f224, type: 2}
+  playerHasWaterReadEventChannel: {fileID: 11400000, guid: a21244f7c97e1cc4389d1351f56183c8, type: 2}
+  worldTemperatureReadEventChannel: {fileID: 11400000, guid: e01816177ec34184d8152164c504ec48, type: 2}
+  worldWeatherReadEventChannel: {fileID: 11400000, guid: e1d0b88557bec804792dccb66b748c42, type: 2}
+  worldAirQualityReadEventChannel: {fileID: 11400000, guid: 587852494739675489642ff55fc42e6e, type: 2}
+  worldHealthReadEventChannel: {fileID: 11400000, guid: 5f7bcd02da19ba9428ef4e1cf59eca59, type: 2}
+  worldInfoQualityReadEventChannel: {fileID: 11400000, guid: 822c8022c1b5b974dad884aabf14b88e, type: 2}
+  worldIsAllowedOutReadEventChannel: {fileID: 11400000, guid: 503b5d38ab77d7e4fa6b3897ee5a3826, type: 2}
+  getTimeEC: {fileID: 11400000, guid: fda04c56a8ca58f46b4f31b1e889b0b4, type: 2}
+  playerDestinationSetEC: {fileID: 11400000, guid: 2e5895511c23c9d4f9f2006e12d88204, type: 2}
+  playerEndInteractionEC: {fileID: 11400000, guid: 4082fce70f6d54646a624ef9a18d3964, type: 2}
+  cancelLongInteractionEC: {fileID: 11400000, guid: cef324014cb2df54b9d47d35db6f6345, type: 2}
+  selectedInteractionEC: {fileID: 11400000, guid: 7f70ddc6b2f67274aa4faf360eae0c70, type: 2}
+  InteractionUIParentGO: {fileID: 0}
+  InteractionCancelButtonGO: {fileID: 0}
+  LongInteractionStopButtonGO: {fileID: 0}
+  InteractionName: {fileID: 0}
+  interactionsDropDown: {fileID: 0}
+  PlayerResourceData: {fileID: 0}
+  TimeManager: {fileID: 0}
+  SceneFridge: {fileID: 0}
+  SceneKitchenCounter: {fileID: 0}
+  ScenarioInitialised: 0
+  BasicResources: {fileID: 0}

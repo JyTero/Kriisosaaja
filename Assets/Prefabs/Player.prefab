@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7282699193657284217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2537631417817843010}
+  - component: {fileID: 3628605328770120190}
+  - component: {fileID: 6598774135243480440}
+  - component: {fileID: 6170387069080595547}
+  - component: {fileID: 2599409619435847265}
+  - component: {fileID: 702255196242839737}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2537631417817843010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.75, y: 0.545, z: -10.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3628605328770120190
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6598774135243480440
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3eaf631ec0f1e7a4886ad1d1425e40e1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6170387069080595547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf554da7302fcd4aaf838c1c6679b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentInteraction: {fileID: 0}
+  currentDestination: {x: 0, y: 0, z: 0}
+  IsSleeping: 0
+  playerDesinationRecieveEC: {fileID: 11400000, guid: 2e5895511c23c9d4f9f2006e12d88204, type: 2}
+  playerAtDestinationEC: {fileID: 11400000, guid: 6fc65fecf62c9ef48876828a3d5b282f, type: 2}
+  playerAtDestinationSecondaryEC: {fileID: 11400000, guid: 9f27d4b7aa5ee9c42afdcc0ab4bf9993, type: 2}
+  playerMentalWellbeingAdjustEventChannel: {fileID: 11400000, guid: e5701b9df49f5b341802136683ee6233, type: 2}
+  playerHungerAdjustEventChannel: {fileID: 11400000, guid: 8ac4bcd6b7b704741832177eaffaaff3, type: 2}
+  playerHydrationAdjustEventChannel: {fileID: 11400000, guid: 32f9a37a0a47b59489ef08abe16ed224, type: 2}
+  playerBathroomAdjustEventChannel: {fileID: 11400000, guid: 545db2179d2cbc146ab66ea726e35a86, type: 2}
+  playerHealthAdjustEventChannel: {fileID: 11400000, guid: c3da46355325f9a428e82dffb6da0472, type: 2}
+  playerEnergyAdjustEventChannel: {fileID: 11400000, guid: 29ce7cbc5d61a7c4aa270d422d509a56, type: 2}
+  playerHasElectrcityAdjustEventChannel: {fileID: 11400000, guid: 0c71e76eb43e0d24bb39cd9f58e4c33c, type: 2}
+  playerHasWaterAdjustEventChannel: {fileID: 11400000, guid: 496b66e9a28a45a4fb47a1f8eaac7984, type: 2}
+  playerMentalWellbeingReadEventChannel: {fileID: 11400000, guid: 86f7430ec4a27ff40bc76c118ac28c32, type: 2}
+  playerHungerReadEventChannel: {fileID: 11400000, guid: 8fca6d4747a464a49b4e66ac3522cbe2, type: 2}
+  playerHydrationReadEventChannel: {fileID: 11400000, guid: 87d34b9e9d465d4459b5495b01ad31b4, type: 2}
+  playerBathroomReadtEventChannel: {fileID: 11400000, guid: f0e66e6071af8f94e84af763780d4c85, type: 2}
+  playerHealthReadEventChannel: {fileID: 11400000, guid: 919f9bc6d8522df4995a8a235ac8a9d5, type: 2}
+  playerEnergyReadEventChannel: {fileID: 11400000, guid: 5e4ce6d3e4955fc4eae53276413c6a2d, type: 2}
+  playerHasElectrcityReadEventChannel: {fileID: 11400000, guid: 71ab6ac700f7c694b96cbdfa45a1f224, type: 2}
+  playerHasWaterReadEventChannel: {fileID: 11400000, guid: a21244f7c97e1cc4389d1351f56183c8, type: 2}
+  powerTurnedOffEC: {fileID: 11400000, guid: 51ca999edb6064f47a28830d3ce0fb77, type: 2}
+  powerTurnedOnEC: {fileID: 11400000, guid: b1ac9eb581e22c2408bdc39f6e2469e2, type: 2}
+  waterTurnedOffEC: {fileID: 11400000, guid: 76dfd3283e99c0a4e9e3d62f57f52206, type: 2}
+  waterTurnedOnEC: {fileID: 11400000, guid: 2fbb1ad8df1ce5a47b4b64783ba48115, type: 2}
+  onMentalWellbeingChangeEC: {fileID: 11400000, guid: 4f9a3ec0553a00849ad30995122f54d8, type: 2}
+  onHungerChangeEC: {fileID: 11400000, guid: b959ca79b471d1441ad82533f9d82350, type: 2}
+  onHydrationChangeEC: {fileID: 11400000, guid: 052c015f9eb1c344db5c5e5ff6530c6f, type: 2}
+  onBathroomChangeEC: {fileID: 11400000, guid: d1a10e3cd7ec5c94da532347a8693d00, type: 2}
+  onHealthChangeEC: {fileID: 11400000, guid: 6802f2395338241458d1a6997dee77ba, type: 2}
+  onEnergyChangeEC: {fileID: 11400000, guid: 2fc439cbe9c23434dbb40c9bd678ca19, type: 2}
+  interactionEndedEC: {fileID: 11400000, guid: 4082fce70f6d54646a624ef9a18d3964, type: 2}
+  getSelectedInteractionEC: {fileID: 11400000, guid: 7f70ddc6b2f67274aa4faf360eae0c70, type: 2}
+  enablePlayerDebugLogs: 0
+--- !u!114 &2599409619435847265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc52bea925c5ba4cbad5ec2ff9c4d3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBeat: {fileID: 11400000, guid: 8688dc7acf8fd144094ae759c9213c2d, type: 2}
+  scenarioLostStringEC: {fileID: 11400000, guid: 44cc695a8140f5042a31835e14ea1e12, type: 2}
+  onAirQualityChange: {fileID: 11400000, guid: 989c281c2cd4edc478d5e6a1c8e87cff, type: 2}
+  DEBUGFreezeHunger: 0
+  DEBUGFreezeHydration: 0
+  needNotificationDuration: 0
+  badAirAlertText: '"The air in here smells..."'
+--- !u!195 &702255196242839737
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282699193657284217}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

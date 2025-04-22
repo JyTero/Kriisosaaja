@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ac06c65342b004a81c1b9c8b7dcef7, type: 3}
+  m_Name: ColdClearWeatherOutageSituation
+  m_EditorClassIdentifier: 
+  situationName: Cold & Clear
+  situationDescription: 
+  situationEffects:
+  - {fileID: 11400000, guid: 34a09fc13ad475a4aa2f93f389d44903, type: 2}
+  - {fileID: 11400000, guid: 6cd48c50b8405d2499672f72dca7f0ea, type: 2}
+  SituationDuration: 50
